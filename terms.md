@@ -47,9 +47,9 @@ We are not responsible for losses caused by an improperly configured API key (e.
 
 ## 4. Subscription, billing, and cancellation
 
-Some Service features (notably the full in-app paid signal feed, including entry, stop-loss, and take-profit levels, and the auto-trade tools) are available only to paid subscribers ("Lumin Pro"). Lumin Pro is a market-analysis and education subscription.
+Signals, price levels (entry, stop-loss, take-profit), and analysis are **free**. Paid subscriptions unlock **trade-automation tools** only, in two monthly tiers: **Assist** (one-tap order placement) and **Auto** (hands-off automated order placement). These tools act on **your own connected exchange account using your own API keys**; Lumin never holds or has withdrawal access to your funds, and you are responsible for the trades placed. The tools are software functionality, **not** financial, investment, or trading advice.
 
-Lumin Pro subscriptions are sold and billed through **Google Play Billing**. By purchasing, you authorise Google Play to charge the applicable price (shown in the App at the time of purchase) on a recurring basis. **Subscriptions renew automatically** for successive periods (e.g. monthly or yearly) at the then-current price until you cancel. Payment is charged to your Google Play account at confirmation of purchase and at the start of each renewal period.
+Subscriptions are sold and billed through **Google Play Billing**. By purchasing, you authorise Google Play to charge the applicable price (shown in the App at the time of purchase) on a recurring **monthly** basis. **Subscriptions renew automatically** at the then-current price until you cancel. Payment is charged to your Google Play account at confirmation of purchase and at the start of each renewal period.
 
 You may cancel at any time through **Google Play › Subscriptions**; cancellation stops future renewals and takes effect at the end of your current billing period. We do not refund partial periods unless required by applicable consumer law; refunds for Google Play purchases are subject to Google Play's refund policies.
 
