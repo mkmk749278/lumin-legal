@@ -47,9 +47,11 @@ We are not responsible for losses caused by an improperly configured API key (e.
 
 ## 4. Subscription, billing, and cancellation
 
-Some Service features (notably access to the paid Telegram signal channel) are available only to paid subscribers. Subscription terms, pricing, and billing are handled outside the App. The App itself does not process payments.
+Some Service features (notably the full in-app paid signal feed, including entry, stop-loss, and take-profit levels, and the auto-trade tools) are available only to paid subscribers ("Lumin Pro"). Lumin Pro is a market-analysis and education subscription.
 
-You may cancel your subscription at any time through whichever channel you originally subscribed via (typically our website or the Telegram-channel subscription gateway). Cancellation takes effect at the end of your current billing period; we do not refund partial periods unless required by applicable consumer law.
+Lumin Pro subscriptions are sold and billed through **Google Play Billing**. By purchasing, you authorise Google Play to charge the applicable price (shown in the App at the time of purchase) on a recurring basis. **Subscriptions renew automatically** for successive periods (e.g. monthly or yearly) at the then-current price until you cancel. Payment is charged to your Google Play account at confirmation of purchase and at the start of each renewal period.
+
+You may cancel at any time through **Google Play › Subscriptions**; cancellation stops future renewals and takes effect at the end of your current billing period. We do not refund partial periods unless required by applicable consumer law; refunds for Google Play purchases are subject to Google Play's refund policies.
 
 ## 5. Acceptable use
 
