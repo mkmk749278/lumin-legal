@@ -1,7 +1,7 @@
 # Terms of Service
 
 **Effective date:** 2026-05-20
-**Last updated:** 2026-05-20
+**Last updated:** 2026-07-21
 
 These Terms of Service ("Terms") govern your use of the Lumin Android application ("App") and the related signal-delivery and order-execution services (collectively, the "Service"), operated by an individual developer based in India (the "Operator", "we", "us"). By installing, opening, or using the App, you agree to these Terms.
 
@@ -52,6 +52,18 @@ Signals, price levels (entry, stop-loss, take-profit), and analysis are **free**
 Subscriptions are sold and billed through **Google Play Billing**. By purchasing, you authorise Google Play to charge the applicable price (shown in the App at the time of purchase) on a recurring **monthly** basis. **Subscriptions renew automatically** at the then-current price until you cancel. Payment is charged to your Google Play account at confirmation of purchase and at the start of each renewal period.
 
 You may cancel at any time through **Google Play › Subscriptions**; cancellation stops future renewals and takes effect at the end of your current billing period. We do not refund partial periods unless required by applicable consumer law; refunds for Google Play purchases are subject to Google Play's refund policies.
+
+## 4a. Referral programme
+
+The App includes an optional referral programme. Where offered, and as displayed in the App at the time:
+
+- **Invite reward.** When a new user signs up and redeems your invite code, you may receive a time-limited grant of a paid tier (currently 7 days of Auto per successful invitation; grants stack up to a displayed cap). A reward grant is a promotional benefit, not a purchased subscription, and carries no cash value.
+- **New-user discount.** A user who redeems an invite code at signup may receive a one-time discount (currently 50%) on the first billing period of either paid plan. On Google Play the discount is delivered as a Play subscription offer; on other channels it is applied to the invoice at checkout. One discount per account, ever.
+- **Referral commission.** If a user you referred purchases a paid subscription, you may earn a commission (currently 50% of the amount they actually paid) for that user's **first three billing periods only**, counted across payment channels. Commissions accrue in the currency of the underlying payment and are **paid out manually by the Operator** to the payment details you provide; we may require identity verification before paying out. Commissions are promotional payments, not investment returns, interest, or income from trading.
+
+**Anti-abuse.** Self-referral, referring accounts you control, fake or automated signups, misleading promotion (including presenting Lumin as guaranteed profit or financial advice), or any manipulation of the programme results in forfeiture of pending rewards and commissions and may result in account termination (Section 10). We may withhold payouts while we investigate suspected abuse.
+
+**Changes.** The programme is promotional and not a permanent feature of the Service. We may change reward amounts, discount levels, commission rates and caps, eligibility, or discontinue the programme at any time. Rewards and commissions already granted or accrued before a change are honoured; future accrual follows the programme as displayed in the App. Where you promote Lumin, you must comply with applicable advertising and financial-promotion rules and must not make claims about profits or performance that the App itself does not make.
 
 ## 5. Acceptable use
 
