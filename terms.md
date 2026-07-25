@@ -1,7 +1,7 @@
 # Terms of Service
 
 **Effective date:** 2026-05-20
-**Last updated:** 2026-07-21
+**Last updated:** 2026-07-25
 
 These Terms of Service ("Terms") govern your use of the Lumin Android application ("App") and the related signal-delivery and order-execution services (collectively, the "Service"), operated by an individual developer based in India (the "Operator", "we", "us"). By installing, opening, or using the App, you agree to these Terms.
 
@@ -64,6 +64,16 @@ The App includes an optional referral programme. Where offered, and as displayed
 **Anti-abuse.** Self-referral, referring accounts you control, fake or automated signups, misleading promotion (including presenting Lumin as guaranteed profit or financial advice), or any manipulation of the programme results in forfeiture of pending rewards and commissions and may result in account termination (Section 10). We may withhold payouts while we investigate suspected abuse.
 
 **Changes.** The programme is promotional and not a permanent feature of the Service. We may change reward amounts, discount levels, commission rates and caps, eligibility, or discontinue the programme at any time. Rewards and commissions already granted or accrued before a change are honoured; future accrual follows the programme as displayed in the App. Where you promote Lumin, you must comply with applicable advertising and financial-promotion rules and must not make claims about profits or performance that the App itself does not make.
+
+## 4b. Free trial
+
+Where offered, and as displayed in the App at the time, new users may activate a **free trial** of a paid tier (currently **7 days of Auto**).
+
+- **Opt-in.** A trial never starts by itself. It begins only when you explicitly activate it in the App, and only if the App shows the offer to you — eligibility is determined by us and is limited to accounts that have not previously trialled or subscribed.
+- **No payment method, no auto-charge.** We do not collect payment details to start a trial and it does not convert into a paid subscription. When the trial period ends your account simply returns to the free tier; **nothing is billed** unless you separately purchase a subscription.
+- **One per account, ever.** A trial may be activated at most once per account. Creating additional accounts to obtain further trials is abuse under the Anti-abuse provisions of Section 4a and may result in account termination (Section 10).
+- **Same terms apply.** During a trial the automation tools work exactly as they do for paying subscribers, on **your own connected exchange account using your own API keys**. All trades placed are real trades with real funds and real risk of loss — a trial is free of charge, not free of risk. Sections 2, 6 and 7 apply in full.
+- **Promotional, not permanent.** The trial is a promotional offer, not a permanent feature or an entitlement. We may change its length or tier, restrict eligibility, or withdraw it at any time. A trial already activated runs to the end of its stated period.
 
 ## 5. Acceptable use
 
