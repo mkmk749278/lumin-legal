@@ -1,7 +1,7 @@
 # Terms of Service
 
 **Effective date:** 2026-05-20
-**Last updated:** 2026-07-25
+**Last updated:** 2026-09-23
 
 These Terms of Service ("Terms") govern your use of the Lumin Android application ("App") and the related signal-delivery and order-execution services (collectively, the "Service"), operated by an individual developer based in India (the "Operator", "we", "us"). By installing, opening, or using the App, you agree to these Terms.
 
@@ -83,7 +83,7 @@ You must not:
 - Attempt to circumvent the per-user safety caps (symbol allowlist, position-size cap, rate limit, global kill switch).
 - Reverse-engineer, decompile, or disassemble the App except where such activity is expressly permitted by applicable law.
 - Use automation tools to spam our APIs or otherwise impose unreasonable load on our infrastructure.
-- Share your account credentials, Telegram subscription, or App access with any other person.
+- Share your account credentials or App access with any other person.
 
 ## 6. Risk acknowledgement
 

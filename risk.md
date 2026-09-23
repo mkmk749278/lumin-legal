@@ -1,7 +1,7 @@
 # Risk Disclosure
 
 **Effective date:** 2026-05-20
-**Last updated:** 2026-05-20
+**Last updated:** 2026-09-23
 
 This Risk Disclosure is part of the Lumin Service. By using the App or any feature of the Service, you confirm that you have read and understood this disclosure, and that you accept the risks described below.
 
@@ -87,7 +87,7 @@ The Service requires an internet connection for both the App and our server infr
 
 ## 10. Forward-looking statements
 
-Nothing in the App, our marketing material, the Telegram channel, or any communication from us should be treated as a promise, prediction, or guarantee of future results. Forward-looking phrasing (e.g. "expected to", "projected", "should") reflects an opinion or a possibility, never a commitment.
+Nothing in the App, our marketing material, notifications, or any communication from us should be treated as a promise, prediction, or guarantee of future results. Forward-looking phrasing (e.g. "expected to", "projected", "should") reflects an opinion or a possibility, never a commitment.
 
 ## 11. You accept these risks
 
