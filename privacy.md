@@ -1,7 +1,7 @@
 # Privacy Policy
 
 **Effective date:** 2026-05-20
-**Last updated:** 2026-05-20
+**Last updated:** 2026-09-23
 
 This Privacy Policy explains how Lumin ("we", "us") collects, uses, stores, and protects information when you use the Lumin Android application (the "App") and the related signal-delivery services (the "Service"). By using the App you consent to the practices described below.
 
@@ -16,7 +16,7 @@ We collect only the information needed to operate the App and Service:
 ### 2.1 Account information
 - Mobile phone number — used for sign-in via Firebase Authentication (OTP-based).
 - Display name, country, timezone, preferred currency — collected during sign-up to personalise the App.
-- Telegram chat identifier — when you subscribe to the paid signal channel, your Telegram account ID is linked to your Lumin account so we can deliver signals.
+- Telegram chat identifier — only if you choose **"Send via Telegram"** at sign-in, so we can deliver your one-time sign-in code to your Telegram account. Signals are delivered inside the App and by push notification; Lumin no longer delivers signals through Telegram channels.
 
 ### 2.2 Binance API key information *(only if you opt into auto-execution)*
 If — and only if — you choose to enable server-side auto-execution on your Binance Futures account, you provide us a Binance API key. This key:
@@ -34,12 +34,16 @@ The API key is encrypted using Google Cloud KMS envelope encryption at the point
 - Per-user preferences: position notional, leverage cap, max concurrent positions, symbol allowlist.
 - Order placement events: timestamp, symbol, direction, qty, status.
 
-### 2.4 Technical information
+### 2.4 Subscriptions and referrals
+- Google Play purchase records — when you subscribe, Google Play gives us a purchase token, the plan you bought and its renewal state, which our server verifies with Google to unlock your plan. We never receive your card or other payment-method details.
+- Referral information — your invite code, the accounts that joined with it, and, if you earn a referral commission, the payout details you give us so we can pay it.
+
+### 2.5 Technical information
 - App version, Android version, device locale.
 - Approximate region (derived from your IP address at the API server) — used to enforce regional availability of the auto-execution feature.
-- Crash reports and basic usage analytics via Firebase Crashlytics.
+- Push-notification subscriptions — the App subscribes your device to Lumin's signal and alert topics through Firebase Cloud Messaging. The device token is held by Google; we do not store it.
 
-### 2.5 What we DO NOT collect
+### 2.6 What we DO NOT collect
 - Your Binance password or 2FA codes (we never see these — you create the API key on Binance directly).
 - Wallet private keys or seed phrases.
 - Precise device location.
@@ -48,10 +52,11 @@ The API key is encrypted using Google Cloud KMS envelope encryption at the point
 
 ## 3. How we use the information
 
-- **Account information** — to authenticate you, deliver signals to your Telegram, and provide customer support.
+- **Account information** — to authenticate you (including delivering a sign-in code to Telegram if you choose that option) and to provide customer support.
 - **Binance API key** — exclusively to place orders matching dispatched signals on your account, with per-user safety caps (symbol allowlist, position notional cap, rate limits, global kill switch).
 - **Trading activity** — to surface the Recent Activity card in the App, debug issues, and generate the aggregate signal-quality reports we use to improve the Service.
-- **Technical information** — to detect crashes, debug platform-specific issues, and enforce regional availability per Section 9.
+- **Subscriptions and referrals** — to verify your plan with Google Play, to grant referral rewards, and to pay referral commissions you have earned.
+- **Technical information** — to send you signal and alert notifications, debug platform-specific issues, and enforce regional availability per Section 9.
 
 We do **not** use your personal information for advertising, do not sell it to third parties, and do not share it with marketing networks.
 
@@ -60,15 +65,15 @@ We do **not** use your personal information for advertising, do not sell it to t
 Where you are located in the UK or EU, our legal bases for processing are:
 - **Performance of a contract** — most processing (delivering signals, executing orders) is necessary to provide the Service you signed up for.
 - **Consent** — the consent gate inside the App captures your affirmative consent to first-launch terms; you may withdraw consent by deleting your account.
-- **Legitimate interest** — crash reporting and basic usage analytics, balanced against your privacy.
+- **Legitimate interest** — debugging and service-quality monitoring, balanced against your privacy.
 
 ## 5. Sharing your information
 
 We share information with the following processors only to the extent necessary:
 
-- **Google (Firebase Auth, Crashlytics, Cloud KMS, Cloud Firestore)** — authentication, crash reporting, encryption-key management, encrypted-key blob storage.
+- **Google (Firebase Authentication, Firebase Cloud Messaging, Cloud KMS, Cloud Firestore, Google Play Billing)** — authentication, push notifications, encryption-key management, encrypted-key and account-state storage, and subscription verification.
 - **Binance** — order placement against your account (using the API key you provided).
-- **Telegram** — signal delivery to your Telegram account.
+- **Telegram** — delivery of a sign-in code, only if you choose "Send via Telegram".
 
 We do not share your information with any other third party except where legally compelled (e.g. valid court order).
 
@@ -77,7 +82,7 @@ We do not share your information with any other third party except where legally
 - **Account information** — retained while your account is active; deleted within 30 days of account deletion request.
 - **Binance API key** — deleted immediately upon account deletion or upon disconnection via the in-app "Disconnect Binance" action.
 - **Trading activity history** — retained for 12 months from event date for audit purposes; aggregated thereafter (no per-user identifiability).
-- **Crash reports** — retained for 90 days by Firebase Crashlytics.
+- **Subscription records** — retained while your account is active and for as long as required for tax and accounting purposes.
 
 ## 7. Your rights
 
@@ -104,7 +109,7 @@ No security measure is perfect. You are responsible for the security of your own
 
 ## 9. Regional availability
 
-The auto-execution feature is enabled only in selected regions to comply with local financial regulations. As of this policy's effective date, auto-execution is available in **India, the United Kingdom, and the European Union**. It is NOT available in the United States, China, or Bangladesh. The signals-viewer feature is available in all regions where the App is distributed via Google Play.
+The auto-execution feature is not offered in every region, to comply with local financial regulations. It is NOT available in the United States, China, or Bangladesh, and we may restrict it in further regions. The signals-viewer feature is available in all regions where the App is distributed via Google Play.
 
 ## 10. Children
 
