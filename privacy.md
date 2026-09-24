@@ -1,7 +1,7 @@
 # Privacy Policy
 
 **Effective date:** 2026-05-20
-**Last updated:** 2026-05-20
+**Last updated:** 2026-09-24
 
 This Privacy Policy explains how Lumin ("we", "us") collects, uses, stores, and protects information when you use the Lumin Android application (the "App") and the related signal-delivery services (the "Service"). By using the App you consent to the practices described below.
 
@@ -68,6 +68,8 @@ We share information with the following processors only to the extent necessary:
 
 - **Google (Firebase Auth, Crashlytics, Cloud KMS, Cloud Firestore)** — authentication, crash reporting, encryption-key management, encrypted-key blob storage.
 - **Binance** — order placement against your account (using the API key you provided).
+- **Google Play** — subscription purchases in the Android app. We receive a purchase token from Google Play and verify it with Google to confirm which tier you bought; Google Play's own privacy policy governs the payment itself.
+- **NOWPayments** — cryptocurrency purchases on the web version of the App. We send NOWPayments an order reference (an internal account number and the tier you chose) and the amount due. You pay on NOWPayments' own page, and any information you give them there (for example a refund address or email) is handled under NOWPayments' privacy policy.
 - **Telegram** — signal delivery to your Telegram account.
 
 We do not share your information with any other third party except where legally compelled (e.g. valid court order).
