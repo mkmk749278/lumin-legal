@@ -1,7 +1,7 @@
 # Terms of Service
 
 **Effective date:** 2026-05-20
-**Last updated:** 2026-07-25
+**Last updated:** 2026-09-24
 
 These Terms of Service ("Terms") govern your use of the Lumin Android application ("App") and the related signal-delivery and order-execution services (collectively, the "Service"), operated by an individual developer based in India (the "Operator", "we", "us"). By installing, opening, or using the App, you agree to these Terms.
 
@@ -49,9 +49,18 @@ We are not responsible for losses caused by an improperly configured API key (e.
 
 Signals, price levels (entry, stop-loss, take-profit), and analysis are **free**. Paid subscriptions unlock **trade-automation tools** only, in two monthly tiers: **Assist** (one-tap order placement) and **Auto** (hands-off automated order placement). These tools act on **your own connected exchange account using your own API keys**; Lumin never holds or has withdrawal access to your funds, and you are responsible for the trades placed. The tools are software functionality, **not** financial, investment, or trading advice.
 
-Subscriptions are sold and billed through **Google Play Billing**. By purchasing, you authorise Google Play to charge the applicable price (shown in the App at the time of purchase) on a recurring **monthly** basis. **Subscriptions renew automatically** at the then-current price until you cancel. Payment is charged to your Google Play account at confirmation of purchase and at the start of each renewal period.
+Paid tiers can be bought in two ways, depending on where you use the App. The tiers are the same either way.
 
-You may cancel at any time through **Google Play › Subscriptions**; cancellation stops future renewals and takes effect at the end of your current billing period. We do not refund partial periods unless required by applicable consumer law; refunds for Google Play purchases are subject to Google Play's refund policies.
+**In the Android app — Google Play Billing.** By purchasing, you authorise Google Play to charge the applicable price (shown in the App at the time of purchase) on a recurring **monthly** basis. **Subscriptions renew automatically** at the then-current price until you cancel. Payment is charged to your Google Play account at confirmation of purchase and at the start of each renewal period. You may cancel at any time through **Google Play › Subscriptions**; cancellation stops future renewals and takes effect at the end of your current billing period.
+
+**On the web version (app.luminapp.org) — cryptocurrency, through our payment processor NOWPayments.**
+
+- **One payment, one period.** A web purchase buys access to the chosen tier for a **fixed period** (currently 30 days) at the price shown at checkout, stated in US dollars and paid in the cryptocurrency you select.
+- **No automatic renewal.** A web purchase **does not renew and never charges you again**. When the period ends your account returns to the free tier unless you buy another period; a period bought before the current one ends is added to the time you have left.
+- **Access starts when the payment is confirmed.** Paid access is granted only after the processor confirms your payment in full. A payment that is still confirming, fails, or arrives short does not grant access.
+- **Blockchain payments are irreversible.** Network fees, and any difference between the amount you send and the amount required (including exchange-rate movement while the payment confirms), are your responsibility. Sending the wrong currency, network or amount can result in the loss of those funds, which we may be unable to recover.
+
+We do not refund partial periods unless required by applicable consumer law. Refunds for Google Play purchases are subject to Google Play's refund policies.
 
 ## 4a. Referral programme
 
