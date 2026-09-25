@@ -1,7 +1,7 @@
 # Terms of Service
 
 **Effective date:** 2026-05-20
-**Last updated:** 2026-09-24
+**Last updated:** 2026-09-25
 
 These Terms of Service ("Terms") govern your use of the Lumin Android application ("App") and the related signal-delivery and order-execution services (collectively, the "Service"), operated by an individual developer based in India (the "Operator", "we", "us"). By installing, opening, or using the App, you agree to these Terms.
 
@@ -47,7 +47,17 @@ We are not responsible for losses caused by an improperly configured API key (e.
 
 ## 4. Subscription, billing, and cancellation
 
-Signals, price levels (entry, stop-loss, take-profit), and analysis are **free**. Paid subscriptions unlock **trade-automation tools** only, in two monthly tiers: **Assist** (one-tap order placement) and **Auto** (hands-off automated order placement). These tools act on **your own connected exchange account using your own API keys**; Lumin never holds or has withdrawal access to your funds, and you are responsible for the trades placed. The tools are software functionality, **not** financial, investment, or trading advice.
+**Closed signals** — signals whose trade has ended, with their price levels (entry, stop-loss, take-profit) and results — are **free** to everyone, including visitors browsing without an account.
+
+**Live signals** — signals whose trade is still open — require an account and a paid plan. Every new account receives **3 days of live signals free of charge** from the moment the account is created (accounts that existed when live signals became paid receive the same 3 days counted from that date). No payment method is collected for these 3 days and nothing is billed when they end; live signals are simply hidden again until you choose a plan.
+
+Paid subscriptions are offered in three monthly plans:
+
+- **Signals** — live signals, as they are issued.
+- **Assist** — live signals, plus one-tap order placement.
+- **Auto** — live signals, plus hands-off automated order placement.
+
+Current prices are shown in the App at the time of purchase. Assist and Auto act on **your own connected exchange account using your own API keys**; Lumin never holds or has withdrawal access to your funds, and you are responsible for the trades placed. Signals are algorithmically generated market information and the automation tools are software functionality; neither is financial, investment, or trading advice, and no plan guarantees any result.
 
 Paid tiers can be bought in two ways, depending on where you use the App. The tiers are the same either way.
 
@@ -67,7 +77,7 @@ We do not refund partial periods unless required by applicable consumer law. Ref
 The App includes an optional referral programme. Where offered, and as displayed in the App at the time:
 
 - **Invite reward.** When a new user signs up and redeems your invite code, you may receive a time-limited grant of a paid tier (currently 7 days of Auto per successful invitation; grants stack up to a displayed cap). A reward grant is a promotional benefit, not a purchased subscription, and carries no cash value.
-- **New-user discount.** A user who redeems an invite code at signup may receive a one-time discount (currently 50%) on the first billing period of either paid plan. On Google Play the discount is delivered as a Play subscription offer; on other channels it is applied to the invoice at checkout. One discount per account, ever.
+- **New-user discount.** A user who redeems an invite code at signup may receive a one-time discount (currently 50%) on the first billing period of any paid plan. On Google Play the discount is delivered as a Play subscription offer; on other channels it is applied to the invoice at checkout. One discount per account, ever.
 - **Referral commission.** If a user you referred purchases a paid subscription, you may earn a commission (currently 50% of the amount they actually paid) for that user's **first three billing periods only**, counted across payment channels. Commissions accrue in the currency of the underlying payment and are **paid out manually by the Operator** to the payment details you provide; we may require identity verification before paying out. Commissions are promotional payments, not investment returns, interest, or income from trading.
 
 **Anti-abuse.** Self-referral, referring accounts you control, fake or automated signups, misleading promotion (including presenting Lumin as guaranteed profit or financial advice), or any manipulation of the programme results in forfeiture of pending rewards and commissions and may result in account termination (Section 10). We may withhold payouts while we investigate suspected abuse.
@@ -139,7 +149,7 @@ You may terminate your own account at any time via the in-app "Delete account" o
 
 ## 11. Changes to these Terms
 
-We may revise these Terms from time to time. The "Last updated" date at the top reflects the most recent change. Material changes will be presented to you via the App's first-run consent gate; continued use of the App after re-acceptance constitutes acceptance of the revised Terms.
+We may revise these Terms from time to time. The "Last updated" date at the top reflects the most recent change. Material changes will be presented to you on the App's first-run welcome screen; continuing past it after the change constitutes acceptance of the revised Terms.
 
 ## 12. Governing law and dispute resolution
 

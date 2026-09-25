@@ -1,7 +1,7 @@
 # Privacy Policy
 
 **Effective date:** 2026-05-20
-**Last updated:** 2026-09-24
+**Last updated:** 2026-09-25
 
 This Privacy Policy explains how Lumin ("we", "us") collects, uses, stores, and protects information when you use the Lumin Android application (the "App") and the related signal-delivery services (the "Service"). By using the App you consent to the practices described below.
 
@@ -13,8 +13,11 @@ Lumin is operated by an individual developer based in India. The App and Service
 
 We collect only the information needed to operate the App and Service:
 
+### 2.0 Browsing without an account (guest)
+You can open the App and browse closed signals, market data and charts without creating an account. To do this the App signs you in with an **anonymous identifier** issued by Firebase Authentication. It is a random ID: it does not contain or reveal your phone number, name, or any other contact detail, and we create no account record for it. We ask for a phone number only when you choose to create an account (for example, to see live signals or to trade).
+
 ### 2.1 Account information
-- Mobile phone number — used for sign-in via Firebase Authentication (OTP-based).
+- Mobile phone number — used for sign-in via Firebase Authentication (OTP-based), only when you create an account.
 - Display name, country, timezone, preferred currency — collected during sign-up to personalise the App.
 - Telegram chat identifier — when you subscribe to the paid signal channel, your Telegram account ID is linked to your Lumin account so we can deliver signals.
 
@@ -114,7 +117,7 @@ The App is intended for users aged 18 and older. We do not knowingly collect inf
 
 ## 11. Changes to this policy
 
-We may update this Privacy Policy from time to time. The "Last updated" date at the top reflects the most recent change. Material changes will be notified to users via the App's consent gate (you will be re-prompted to acknowledge the updated terms before continuing).
+We may update this Privacy Policy from time to time. The "Last updated" date at the top reflects the most recent change. Material changes will be notified to users on the App's first-run welcome screen (you will be shown it again and asked to acknowledge the updated terms before continuing).
 
 ## 12. Contact
 
