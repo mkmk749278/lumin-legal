@@ -1,0 +1,32 @@
+name: Check published documents
+
+# The app and the Play listing link these pages by exact path; a renamed file
+# or a missing "Last updated" line would reach them on the merge. This runs the
+# checks before that (.github/scripts/check_published.py). Stdlib only.
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Check published documents
+        run: |
+          if [ -n "${{ github.base_ref }}" ]; then
+            base=$(git merge-base "origin/${{ github.base_ref }}" HEAD)
+            python .github/scripts/check_published.py --base "$base"
+          else
+            python .github/scripts/check_published.py
+          fi
