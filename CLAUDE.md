@@ -21,4 +21,5 @@ So: never delete or rename a published file (the app and Play Console link to ex
 
 - Every change ships via PR to `main` (mirrors the other repos' protocol); the Pages deploy runs automatically on merge.
 - Bump the "Last updated" date in any document you materially change (and in `index.md` if the set changes).
+- `.github/scripts/check_published.py` runs on every PR: it fails on a missing published file, a missing/invalid/future "Last updated", or a dead relative link, and warns when a document changed without a date bump. It lives under `.github/` because the repo root is what Pages publishes.
 - Substantive legal-content changes are owner-sign-off territory — propose, don't auto-merge.
