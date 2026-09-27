@@ -1,7 +1,7 @@
 # Privacy Policy
 
 **Effective date:** 2026-05-20
-**Last updated:** 2026-09-25
+**Last updated:** 2026-09-27
 
 This Privacy Policy explains how Lumin ("we", "us") collects, uses, stores, and protects information when you use the Lumin Android application (the "App") and the related signal-delivery services (the "Service"). By using the App you consent to the practices described below.
 
@@ -31,6 +31,13 @@ If — and only if — you choose to enable server-side auto-execution on your B
 We **never** receive or store funds, custody assets, or hold private keys to any wallet. Your funds remain in your Binance account at all times. The API key is a revocable trade-authorisation token, not a custody instrument.
 
 The API key is encrypted using Google Cloud KMS envelope encryption at the point of receipt, and is only decrypted in-memory by an isolated signing service when placing a single order on your behalf. Plaintext keys are never written to disk, logs, or error traces.
+
+### 2.2A CoinDCX API key information *(only if you choose CoinDCX)*
+If you choose CoinDCX as your trading platform, you provide a CoinDCX API key and secret. They are encrypted and handled exactly as a Binance key is (above). With the key we also store:
+
+- your **confirmation** that the key cannot withdraw and is bound to our server's IP, when you gave it, and the server IP shown to you — because CoinDCX does not let us verify those settings ourselves;
+- your trading-platform choice, margin currency (INR or USDT) and maximum leverage;
+- a record of each CoinDCX trade placed for you (symbol, side, size, prices, fees, result and the reason it closed).
 
 ### 2.3 Trading activity
 - Signals dispatched to you, with outcome (placed / rejected / skipped) and the exchange's error code if rejected.
@@ -71,6 +78,7 @@ We share information with the following processors only to the extent necessary:
 
 - **Google (Firebase Auth, Crashlytics, Cloud KMS, Cloud Firestore)** — authentication, crash reporting, encryption-key management, encrypted-key blob storage.
 - **Binance** — order placement against your account (using the API key you provided).
+- **CoinDCX** — order placement against your account, if you chose CoinDCX (using the API key you provided).
 - **Google Play** — subscription purchases in the Android app. We receive a purchase token from Google Play and verify it with Google to confirm which tier you bought; Google Play's own privacy policy governs the payment itself.
 - **NOWPayments** — cryptocurrency purchases on the web version of the App. We send NOWPayments an order reference (an internal account number and the tier you chose) and the amount due. You pay on NOWPayments' own page, and any information you give them there (for example a refund address or email) is handled under NOWPayments' privacy policy.
 - **Telegram** — signal delivery to your Telegram account.
@@ -81,6 +89,7 @@ We do not share your information with any other third party except where legally
 
 - **Account information** — retained while your account is active; deleted within 30 days of account deletion request.
 - **Binance API key** — deleted immediately upon account deletion or upon disconnection via the in-app "Disconnect Binance" action.
+- **CoinDCX API key** — deleted immediately upon account deletion or upon removal in the App (Trading platform → Remove key). Removal is refused while a CoinDCX trade is still open, so its stop is never orphaned; the stop and target of any trade open at account deletion stay on CoinDCX, where they were placed.
 - **Trading activity history** — retained for 12 months from event date for audit purposes; aggregated thereafter (no per-user identifiability).
 - **Crash reports** — retained for 90 days by Firebase Crashlytics.
 
@@ -101,11 +110,11 @@ If you are in the UK or EU, you also have the right to lodge a complaint with yo
 We follow industry-standard practices:
 
 - All network traffic uses TLS 1.2+.
-- Binance API keys are encrypted with Google Cloud KMS (envelope encryption); plaintext keys never persist to disk and never appear in logs or error traces.
+- Binance and CoinDCX API keys are encrypted with Google Cloud KMS (envelope encryption); plaintext keys never persist to disk and never appear in logs or error traces.
 - The signing service that decrypts keys to place orders is isolated on its own Unix socket and is the only process with KMS Decrypt permission.
 - Per-user blast-radius caps (symbol allowlist, position-size cap, rate limit, global kill switch) bound damage in the unlikely event our infrastructure is compromised.
 
-No security measure is perfect. You are responsible for the security of your own Binance account — including ensuring the API key you provide has withdrawals disabled and IP whitelisting enabled.
+No security measure is perfect. You are responsible for the security of your own exchange account — including ensuring the API key you provide has withdrawals disabled and is restricted to our server's IP address. For a CoinDCX key this rests entirely on the confirmation you give when connecting.
 
 ## 9. Regional availability
 
