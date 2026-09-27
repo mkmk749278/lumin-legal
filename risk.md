@@ -1,7 +1,7 @@
 # Risk Disclosure
 
 **Effective date:** 2026-05-20
-**Last updated:** 2026-05-20
+**Last updated:** 2026-09-27
 
 This Risk Disclosure is part of the Lumin Service. By using the App or any feature of the Service, you confirm that you have read and understood this disclosure, and that you accept the risks described below.
 
@@ -15,7 +15,9 @@ Cryptocurrency futures trading is **high risk**. You can lose **some or all** of
 
 ## 2. Leverage amplifies both gains AND losses
 
-Binance Futures positions can be opened with leverage up to 125× depending on the pair. **Leverage is set by you, on Binance, on Binance's side.** Lumin does not change your leverage; we respect whatever you have configured.
+Binance Futures positions can be opened with leverage up to 125× depending on the pair. **On Binance, leverage is set by you, on Binance's side.** Lumin does not change your Binance leverage; we respect whatever you have configured.
+
+**On CoinDCX, Lumin sets the leverage for each trade** — never above the maximum you choose in the App, and lower where a stop is wide — and opens every position in isolated margin. Leverage chosen by Lumin is still leverage: the loss on a stop-out is a multiple of the price move.
 
 - A 10× leveraged position loses 10× as fast as a 1× position when the market moves against you.
 - A single stop-loss hit at 10× leverage can erase a meaningful portion of your trading capital. A full SL on a 0.80% adverse move costs ≈ 7.9% on the margin you allocated (after fees + funding).
@@ -67,9 +69,19 @@ When you enable server-side auto-execution by providing a Binance API key:
 
 If you do not understand auto-execution risk, **leave the feature off** and use the signals-viewer mode only.
 
+## 6A. Trading on CoinDCX
+
+If you choose CoinDCX as your trading platform:
+
+- **Signals come from Binance; your fill comes from CoinDCX.** CoinDCX's contract price is usually close to Binance's but is not the same market. Your entry, stop and exit fill at CoinDCX's prices, so your result can differ from the signal's recorded result. If CoinDCX's price has moved too far from the signal's entry, the trade is skipped.
+- **We cannot verify your CoinDCX key's safety settings.** CoinDCX does not expose whether a key can withdraw or is IP-bound, so these rely on your own confirmation when you connect. **A CoinDCX key that can withdraw puts your funds at risk if it is ever compromised.** Create a dedicated key with withdrawals off and bound to our server IP.
+- **One exit per trade.** The whole position closes at the first target or the stop. You do not get later targets or trailing exits on CoinDCX.
+- **Rupee (INR) margin.** Profit and loss shown in rupees uses CoinDCX's own conversion price, which CoinDCX sets and can change; rupee results can differ from USDT results for the same trade.
+- **Exchange-specific risk.** CoinDCX can have outages, maintenance, rejected orders and API changes, independently of Binance. A stop placed on CoinDCX is executed by CoinDCX; it can fill worse than its level in a fast market.
+
 ## 7. Technical risks specific to crypto + automation
 
-- **Exchange outages.** Binance has experienced API outages, scheduled maintenance, and degraded performance. During these periods orders may fail, fills may be delayed, or position state may be inconsistent.
+- **Exchange outages.** Binance and CoinDCX have both experienced API outages, scheduled maintenance, and degraded performance. During these periods orders may fail, fills may be delayed, or position state may be inconsistent.
 - **Network issues.** Our execution VPS may experience temporary network problems that prevent timely order placement.
 - **API key issues.** Binance occasionally revises API permissions, rate limits, or required parameters. If your API key is mis-configured, has its IP whitelist drift, or is rotated without updating us, orders will fail.
 - **Software bugs.** We do not guarantee bug-free software. If a bug causes a wrong order to fire, the loss is yours.
